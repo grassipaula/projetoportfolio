@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul { 
+  list-style: none;
+}
+
+a { 
+  text-decoration: none;
+}
+
+body {
+  /* background-image: url(./pexels-eberhard-grossgasteiger-2088170.jpg);
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  background-size: cover; */
+ background: linear-gradient(90deg,#ecc8ce, #fcdcc9);
+}
+
+header {
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 10px;
+box-shadow: 1px 1px 10px 1px #FFF;
+}
+
+header ul { 
+display: flex;
+}
+
+header ul li {
+padding: 10px;
+}
+
+header ul li a {
+transition: 300ms;
+}
+
+header ul li a:hover {
+color: whitesmoke;
+text-decoration: underline;
+}
+
+h4 {
+  font-style: italic;
+  font-weight: 900;
+}
+
+#logo {
+width: 180px;
+}
+
+.container {
+text-align: center;
+}
+
+#about p {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#navegar p {
+  margin: 5px;
+}
+
+.form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.form input {
+  width: 50%;
+  margin-top: 15px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.form button {
+  width: 12%;
+  padding: 5px 10px;
+  background-color: #d3939e;
+  color: white;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.form button:hover {
+  background-color: rgb(245, 160, 174);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex div {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 3px 3px 3px 3px;
+  flex-basis: 100%;
+  padding: 10px;
+  max-width: 300px;
+}
+
+.flex p {
+ width: 200px;
+ margin: 0 auto;
+}
+
+.flex img {
+  max-width: 220px;
+}
+
+#destaque {
+  margin: 30px;
+}
+
+.name h1 {
+  padding-top: 30px;
+}
+
+#arrow {
+  font-size: 25px;
+  cursor: pointer;
+  animation: ;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: 300ms;
+}
+
+#animation { 
+  transition: 300ms;
+}
+
+@media only screen and (max-width: 768px) {
+  .form {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .form button {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header ul li {
+    width: 35%;
+   
+  }
+}
